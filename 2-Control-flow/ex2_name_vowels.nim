@@ -2,9 +2,9 @@
 # Write a for-loop which will iterate through that string and print only the vowels (a, e, i, o, u).
 # (Hint: use case statement with multiple values per branch)
 
-let full_name = "Denis Zakharov"
+let fullName = "Denis Zakharov"
 
-for letter in full_name:
+for letter in fullName:
   case letter
   of 'a', 'e', 'i', 'o', 'u':
     echo letter

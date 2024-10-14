@@ -3,13 +3,13 @@
 # Don’t forget to put a whitespace in-between. Print your full name.
 
 let
-  first_name = "Denis"
-  last_name = "Zakharov"
+  firstName = "Denis"
+  lastName = "Zakharov"
 
 var fullName: string
 
-fullName.add(first_name)
+fullName.add(firstName)
 fullName.add(' ')
-fullName.add(last_name)
+fullName.add(lastName)
 
 echo fullName

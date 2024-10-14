@@ -6,6 +6,6 @@ echo "Enter your age >"
 let age: uint64 = readLine(stdin).parseBiggestUInt
 
 let
-    is_divisable: bool = age mod 3 == 0
+    isDivisable: bool = age mod 3 == 0
 
-echo is_divisable
+echo isDivisable

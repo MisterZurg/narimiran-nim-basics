@@ -4,6 +4,6 @@
 import strutils
 
 echo "Enter your height in cm >"
-let height_in_cm: float32 = readLine(stdin).parseFloat
+let heightInCM: float32 = readLine(stdin).parseFloat
 
-echo "Your height in inches is ", height_in_cm / 2.54
+echo "Your height in inches is ", heightInCM / 2.54
