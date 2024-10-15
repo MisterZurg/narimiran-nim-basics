@@ -32,6 +32,9 @@ g[^1] # last elem (first from the back)
 
 # Tuples
 ```nim
+# Empty tuple
+var bestNum: tuple[startingNumber: int, longestLength: int]
+
 let n = ("Banana", 2, 'c')
 # We can also name each field in a tuple to distinguish them
 var o = (name: "Banana", weight: 2, rating: 'c')
